@@ -4,3 +4,8 @@
     --grayish-blue: hsl(229, 8%, 60%);
     --very-dark-blue: hsl(229, 31%, 21%);
 }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
