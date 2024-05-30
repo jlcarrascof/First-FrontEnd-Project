@@ -19,5 +19,20 @@ body {
     width: 90%;
     max-width: 1200px;
     overflow: hidden;
-    background-color: tomato;
+}
+
+nav {
+    height: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav__list {
+    transform: translate(-100%);
+    position: absolute;
+    inset: 0;
+    background-color: var(--very-dark-blue);
 }
