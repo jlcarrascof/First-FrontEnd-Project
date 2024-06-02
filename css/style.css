@@ -30,19 +30,19 @@ nav {
     align-items: center;
 }
 
-nav__list {
-    transform: translate(-100%);
+.nav__list {
+    transform: translateY(-100%);
     position: absolute;
     inset: 0;
     background-color: var(--very-dark-blue);
 }
 
-nav__icon {
+.nav__icon {
     grid-column: 2/3;
     grid-row: 1/2;
     transform: scale(0);
 }
 
-nav__icon--show {
+.nav__icon--show {
     transform: scale(1);
 }
