@@ -43,6 +43,6 @@ nav {
     transform: scale(0);
 }
 
-.nav__icon--show {
+.nav__icon-show {
     transform: scale(1);
 }
