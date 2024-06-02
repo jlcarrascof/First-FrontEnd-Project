@@ -34,13 +34,19 @@ nav {
     transform: translateY(-100%);
     position: absolute;
     inset: 0;
-    background-color: var(--very-dark-blue);
+    background-color: hsla(229, 31%, 21%, 0.697);
     transition: 0.3s transform;
+    padding: 0;
     padding-top: 100px;
     display: grid;
-    align-items: center;
+    align-content: start;
+    list-style: none;
 }
 
+.nav__link {
+    text-decoration: none;
+    color: white;
+}
 .nav__list--show {
     transform: translate(0);
 }
