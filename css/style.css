@@ -40,4 +40,9 @@ nav__list {
 nav__icon {
     grid-column: 2/3;
     grid-row: 1/2;
+    transform: scale(0);
+}
+
+nav__icon--show {
+    transform: scale(1);
 }
