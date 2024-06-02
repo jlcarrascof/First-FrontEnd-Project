@@ -35,6 +35,11 @@ nav {
     position: absolute;
     inset: 0;
     background-color: var(--very-dark-blue);
+    transition: 0.3s transform;
+}
+
+.nav__list--show {
+    transform: translate(0);
 }
 
 .nav__icon {
