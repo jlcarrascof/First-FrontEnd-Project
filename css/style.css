@@ -36,6 +36,9 @@ nav {
     inset: 0;
     background-color: var(--very-dark-blue);
     transition: 0.3s transform;
+    padding-top: 100px;
+    display: grid;
+    align-items: center;
 }
 
 .nav__list--show {
