@@ -36,3 +36,8 @@ nav__list {
     inset: 0;
     background-color: var(--very-dark-blue);
 }
+
+nav__icon {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
