@@ -30,9 +30,50 @@ nav {
     align-items: center;
 }
 
-nav__list {
-    transform: translate(-100%);
+.nav__logo {
+    z-index: 100;
+}
+
+.nav__list {
+    transform: translateY(-100%);
     position: absolute;
     inset: 0;
-    background-color: var(--very-dark-blue);
+    background-color: hsla(229, 31%, 21%, 0.697);
+    transition: 0.3s transform;
+    padding: 0;
+    padding-top: 100px;
+    display: grid;
+    align-content: start;
+    list-style: none;
+    z-index: 10;
+}
+
+.nav__item {
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 1em 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+}
+.nav__list--show {
+    transform: translate(0);
+}
+
+.nav__icon {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    transform: scale(0);
+    z-index: 100;
+}
+
+.nav__icon-show {
+    transform: scale(1);
 }
