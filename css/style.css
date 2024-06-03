@@ -30,6 +30,10 @@ nav {
     align-items: center;
 }
 
+.nav__logo {
+    z-index: 100;
+}
+
 .nav__list {
     transform: translateY(-100%);
     position: absolute;
